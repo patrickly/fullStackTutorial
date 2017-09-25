@@ -10,6 +10,12 @@ var mongo = require('mongodb');
 var monk = require('monk');
 var db = monk('localhost:27017/nodetest1');
 
+/* PASSWORD HIDDEN:
+//var db = monk('mongodb://hugogarcia354:PASSWORD@csulb-cecs-shard-00-00-4olcz.mongodb.net:27017,csulb-cecs-shard-00-01-4olcz.mongodb.net:27017,csulb-cecs-shard-00-02-4olcz.mongodb.net:27017/hotel?ssl=true&replicaSet=CSULB-CECS-shard-0&authSource=admin');
+
+//var db = monk('mongodb://patrickkimly:PASSWORD@csulb-cecs-shard-00-00-4olcz.mongodb.net:27017,csulb-cecs-shard-00-01-4olcz.mongodb.net:27017,csulb-cecs-shard-00-02-4olcz.mongodb.net:27017/hotel?ssl=true&replicaSet=CSULB-CECS-shard-0&authSource=admin');
+
+*/
 
 // var routes = require('./routes/index');
 var index = require('./routes/index');
